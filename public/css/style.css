@@ -1,0 +1,69 @@
+.unstyled li {
+    list-style: none;
+}
+
+#cashier{
+  margin: 2%;
+  text-align: center;
+  padding-right: 60%;
+}
+
+body{
+  background-image: url("https://i2.wp.com/wallpapersfortech.com/wp-content/uploads/2017/12/IMG_1229.png?ssl=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 1000px;
+  height: 1000px;
+  background-color: saddlebrown;
+}
+
+h1{
+color: beige;
+font-family: 'Calistoga', cursive;
+}
+
+#customerName{
+  background-color: burlywood;
+  border: 2px solid beige;
+  border-radius: 4px;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  font-family: 'Calistoga', cursive;
+  font-weight: bold;
+  font-size: 15px;
+  color: beige;
+}
+
+#customerOrder{
+  background-color: burlywood;
+  border: 2px solid beige;
+  border-radius: 4px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  font-family: 'Calistoga', cursive;
+  font-weight: bold;
+  font-size: 15px;
+  color: beige;
+}
+
+#submitOrder{
+  background-color: burlywood;
+  border: 2px solid beige;
+  border-radius: 4px;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  font-family: 'Calistoga', cursive;
+  font-weight: bold;
+  font-size: 15px;
+  color: beige;
+}
+#login{
+  font-family: 'Calistoga', cursive;
+  font-weight: bold;
+  font-size: 15px;
+  color: beige;
+}

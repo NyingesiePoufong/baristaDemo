@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>House Cass Barista App</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <div id="cashier">
+        <h1>Welcome Back CoffeeLuv Cashier</h1>
+
+        <form action="/submitOrder" method="post">
+            <input id="customerName" type="text" name="customerName" placeholder="Enter Customer Name">
+            <br>
+            <br>
+            <br>
+            <textArea id="customerOrder" name="customerOrder" placeholder="Enter Customer Order"></textArea>
+            <br>
+            <br>
+            <br>
+            <button id="submitOrder" type="submit">Submit Order</button>
+        </form>
+
+        <a id="login" href="/baristaLogin">Barista Account</a>
+      </div>
+
+
+
+        <script src="js/script.js"></script>
+
+    </body>
+</html>
